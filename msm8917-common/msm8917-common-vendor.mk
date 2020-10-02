@@ -109,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@2.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
@@ -119,12 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-qjpeg-dec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-dec-test \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-qjpeg-enc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-enc-test \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/mm-vidc-omx-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-vidc-omx-test \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/pktlogconf:$(TARGET_COPY_OUT_VENDOR)/bin/pktlogconf \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
@@ -205,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@2.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
@@ -283,10 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.candycamera.android.filter.libcookiencream.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libcookiencream.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.candycamera.android.filter.libeveryday.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libeveryday.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.linecorp.b612.filter.libriddle.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.linecorp.b612.filter.libriddle.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.pinguo.camera360filter.libmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.pinguo.camera360filter.libmemory.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -302,8 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.quicinc.cne.server@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@2.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.quicinc.cne.server@2.2.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.thundersoft.ucamera.filter.libmaple.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.thundersoft.ucamera.filter.libmaple.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/com.thundersoft.ucamera.filter.libnostalgia.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.thundersoft.ucamera.filter.libnostalgia.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
@@ -317,7 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/audio.primary.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8937.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8937.so \
@@ -389,7 +374,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libactuator_dw9808.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9808.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
@@ -401,467 +385,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2dcolorconvert.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_csidtg_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_preview.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_4k_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_4k_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_iso_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_iso_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_iso_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_iso_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_motion_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_motion_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_night_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_night_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_night_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_night_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_night_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_night_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_outfocus_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_outfocus_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_outfocus_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_outfocus_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_outfocus_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_outfocus_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_panorama_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_panorama_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_panorama_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_panorama_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_panorama_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_panorama_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_sports_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_sports_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_sports_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_sports_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_mode_sports_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_mode_sports_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_video_4k_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_video_4k_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_zsl_video_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_zsl_video_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2p6sx_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2p6sx_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_high_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_high_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_remosaic_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_remosaic_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_snapshot_remosaic_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_snapshot_remosaic_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_sw_post_proc_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_sw_post_proc_remosaic.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_sw_post_proc_tetra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_sw_post_proc_tetra.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k2x7sp_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2x7sp_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_4k_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_4k_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_4k_video_non_gyro_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_4k_video_non_gyro_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_iso_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_iso_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_iso_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_iso_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_motion_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_motion_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_night_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_night_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_night_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_night_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_night_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_night_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_outfocus_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_outfocus_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_outfocus_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_outfocus_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_outfocus_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_outfocus_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_panorama_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_panorama_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_panorama_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_panorama_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_panorama_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_panorama_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_sports_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_sports_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_sports_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_sports_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_mode_sports_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_mode_sports_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_video_4k_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_video_4k_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_vt_24fps_non_gyro_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_vt_24fps_non_gyro_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_zsl_video_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_zsl_video_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_zsl_video_15fps_non_gyro_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_zsl_video_15fps_non_gyro_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3l6xx_zsl_video_non_gyro_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l6xx_zsl_video_non_gyro_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_wide_selfie_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_wide_selfie_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_wide_selfie_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_wide_selfie_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_mode_wide_selfie_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_mode_wide_selfie_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_high_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_high_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_remosaic_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_remosaic_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_remosaic_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_remosaic_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k3p8sp_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_4k_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_4k_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_effect_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_effect_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_iso_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_iso_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_iso_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_iso_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_motion_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_motion_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_night_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_night_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_night_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_night_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_night_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_night_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_outfocus_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_outfocus_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_outfocus_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_outfocus_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_outfocus_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_outfocus_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_panorama_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_panorama_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_panorama_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_panorama_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_panorama_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_panorama_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_sports_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_sports_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_sports_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_sports_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_mode_sports_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_mode_sports_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_video_4k_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_video_4k_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4h5yc_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h5yc_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_wide_selfie_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_wide_selfie_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_wide_selfie_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_wide_selfie_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_mode_wide_selfie_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_mode_wide_selfie_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_snapshot_high_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_snapshot_high_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k4hayx_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4hayx_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_effect_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_effect_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_snapshot_high_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e3yx_f2_2_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e3yx_f2_2_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_4k_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_4k_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_mode_outfocus_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_mode_outfocus_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_mode_wide_selfie_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_snapshot_high_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_q05ql_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_q05ql_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_video_4k_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_video_4k_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_s5k5e9yx_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k5e9yx_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_mode_face_unlock_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_mode_face_unlock_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_mode_face_unlock_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_mode_face_unlock_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_mode_face_unlock_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_mode_face_unlock_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_preview_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_preview_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_preview_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_preview_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_preview_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_preview_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_preview_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_preview_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_snapshot_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_snapshot_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_snapshot_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_snapshot_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_snapshot_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_snapshot_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_snapshot_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_snapshot_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_video_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_video_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_video_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_video_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_video_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_video_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_video_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_video_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_15fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_15fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_24fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_24fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_30fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_30fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_7fps_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_7fps_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_high_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_high_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_high_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_high_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_low_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_low_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_vt_low_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_vt_low_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr259_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr259_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_auto_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_auto_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_auto_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_auto_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_auto_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_auto_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_on_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_on_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_on_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_on_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_hdr_on_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_hdr_on_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_iso_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_iso_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_iso_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_iso_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_motion_lls_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_motion_lls_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_night_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_night_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_night_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_night_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_night_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_night_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_outfocus_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_outfocus_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_outfocus_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_outfocus_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_outfocus_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_outfocus_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_panorama_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_panorama_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_panorama_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_panorama_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_panorama_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_panorama_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_sports_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_sports_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_sports_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_sports_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_mode_sports_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_mode_sports_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr544_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_zsl_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_4k_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_4k_video_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_common.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_hfr_120_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_hfr_120_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_hfr_120_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_hfr_120_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_hfr_120_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_liveshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_liveshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_liveshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_liveshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_preview_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_preview_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_preview_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_preview_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_snapshot_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_snapshot_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_snapshot_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_snapshot_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_sw_post_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_sw_post_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_video_4k_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_video_4k_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_video_cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_video_cpp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_video_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_video_isp.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_zsl_preview_3a.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libchromatix_sr556_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr556_zsl_video_3a.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
@@ -882,7 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libfastcrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcrc.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
@@ -898,7 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_tonemapper.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgrallocutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libgui_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcpsrm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills.so \
@@ -908,9 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster2_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster2_mdfpp.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libkeymaster_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeymaster_helper_vendor.so \
@@ -939,136 +462,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmacsoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacsoftkeymasterdevice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmediacodecservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacodecservice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmm-omxcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-omxcore.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct_shimlayer.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9761b_2d_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dw9807_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9807_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_dw9808_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9808_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_gt24c128_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c128_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_gt24c128_sub_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c128_sub_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_gt24c64a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gt24c64a_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c16_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c32_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_lsi_s5k5e9yx_otp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_lsi_s5k5e9yx_otp_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c64_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_onsemi_cat24s128_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24s128_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4688_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f5670bq_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_s5k3l6xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l6xx.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_s5k4h5yc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h5yc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_s5k4hayx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4hayx.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_s5k5e9yx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e9yx.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_s5k5e9yx_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e9yx_front.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_silicon_sr544_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_silicon_sr544_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx214_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_stm_m24c64s_fcu_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stm_m24c64s_fcu_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_8865_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cma481_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_truly_cmb433_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cmb433_eeprom.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libnetfilter_conntrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetfilter_conntrack.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
@@ -1079,8 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnlnetmgr.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemaids_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
@@ -1099,10 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqservice.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
@@ -1114,25 +505,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libremotedesktop_client.knox.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremotedesktop_client.knox.samsung.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_BeautySolution.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_BeautySolution.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_BeautySolutionLite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_BeautySolutionLite.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_FacePreProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_FacePreProcessing.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_FD_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_FD_api.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_FD_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_FD_jni.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_GAE_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_GAE_api.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_GAE_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_GAE_jni.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_LD_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_LD_api.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_LD_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_LD_jni.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_utils_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_utils_api.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_HprFace_utils_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_HprFace_utils_jni.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsaiv_vision.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsaiv_vision.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungVoipResampler.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
@@ -1145,16 +521,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsechelper_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsechelper_engine.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecimaging.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecimaging.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecjpeginterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecjpeginterface.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecjpegquram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecjpegquram.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecpkcs11_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecpkcs11_engine.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecure_storage.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libsemcamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemcamera_jni.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsi.so \
@@ -1197,26 +567,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libstr_capture_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstr_capture_core.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libstr_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstr_capture_interface.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libstr_preview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstr_preview_interface.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libucsengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucsengine.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
@@ -1231,8 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/mactavishao.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/mactavishao.hardware.camera.device@3.2.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/mactavishao.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/mactavishao.hardware.graphics.common@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -1270,8 +630,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@2.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.alarm@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.connection@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
