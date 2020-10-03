@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/gralloc.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8937.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/sensors.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8937.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libactuator_dw9808.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9808.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
@@ -669,6 +671,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/mactavishao.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/mactavishao.hardware.camera.device@3.2.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/mactavishao.hardware.graphics.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/mactavishao.hardware.graphics.common@1.0.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
@@ -679,4 +682,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
-    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0_vendor.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.2.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.3.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.4.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@2.4.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@2.5.so
