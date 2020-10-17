@@ -30,6 +30,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j4primelte/proprietary/vendor/bin/mm-vidc-omx-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-vidc-omx-test \
     vendor/samsung/j4primelte/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/j4primelte/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.candycamera.android.filter.libcookiencream.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libcookiencream.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.candycamera.android.filter.libeveryday.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.candycamera.android.filter.libeveryday.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.linecorp.b612.filter.libriddle.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.linecorp.b612.filter.libriddle.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.pinguo.camera360filter.libmemory.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.pinguo.camera360filter.libmemory.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.thundersoft.ucamera.filter.libmaple.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.thundersoft.ucamera.filter.libmaple.so \
+    vendor/samsung/j4primelte/proprietary/vendor/lib/com.thundersoft.ucamera.filter.libnostalgia.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.thundersoft.ucamera.filter.libnostalgia.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/gralloc.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8937.so \
     vendor/samsung/j4primelte/proprietary/vendor/lib/hw/sensors.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8937.so \
