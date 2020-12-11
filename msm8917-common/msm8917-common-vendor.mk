@@ -65,6 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.qti.hardware.perf@2.0.so:system/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/samsung/msm8917-common/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so \
+    vendor/samsung/msm8917-common/proprietary/lib/vendor.samsung.hardware.snap@1.0.so:system/lib/vendor.samsung.hardware.snap@1.0.so \
+    vendor/samsung/msm8917-common/proprietary/lib/vendor.samsung.hardware.snap@1.1.so:system/lib/vendor.samsung.hardware.snap@1.1.so \
     vendor/samsung/msm8917-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/samsung/msm8917-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/samsung/msm8917-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:system/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
@@ -1430,8 +1432,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.atn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.atn@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.iccc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.iccc@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so \
