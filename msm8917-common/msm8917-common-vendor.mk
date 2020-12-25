@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@3.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.media.converter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.media.converter@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.snap@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.snap@1.1-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service \
@@ -194,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/secure_ui_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/secure_ui_sample_client \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/sigma_dut:$(TARGET_COPY_OUT_VENDOR)/bin/sigma_dut \
-    vendor/samsung/msm8917-common/proprietary/vendor/bin/snap_utility_32:$(TARGET_COPY_OUT_VENDOR)/bin/snap_utility_32 \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/spectraltool:$(TARGET_COPY_OUT_VENDOR)/bin/spectraltool \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
@@ -328,7 +326,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc \
@@ -346,7 +343,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@3.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.media.converter@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.snap@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.snap@1.1-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.payment@1.0-service.rc \
@@ -369,7 +365,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/sec_config_oem:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config_oem \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/somxreg.conf:$(TARGET_COPY_OUT_VENDOR)/etc/somxreg.conf \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
@@ -462,7 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@2.0-impl-sec.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@3.0-impl.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.snap@1.1-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.security.skeymaster@3.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
@@ -1425,8 +1419,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.proca@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.proca@2.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.securestorage@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.securestorage@3.0.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.security.vaultkeeper@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.0.so \
-    vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.snap@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.snap@1.1.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.atn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.atn@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.iccc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.iccc@1.0-impl.so \
     vendor/samsung/msm8917-common/proprietary/vendor/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.tlc.payment@1.0-impl.so \
