@@ -141,22 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
     vendor/samsung/msm8917-common/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Bluetooth_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/General_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Global_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Handset_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Hdmi_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Headset_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/Speaker_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/ODX/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/ODX/workspaceFile.qwsp \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Bluetooth_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/General_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Global_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Handset_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Hdmi_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Headset_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/Speaker_cal.acdb \
-    vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OGC/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OGC/workspaceFile.qwsp \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OPEN/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Bluetooth_cal.acdb \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OPEN/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/General_cal.acdb \
     vendor/samsung/msm8917-common/proprietary/vendor/etc/audconf/OPEN/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Global_cal.acdb \
